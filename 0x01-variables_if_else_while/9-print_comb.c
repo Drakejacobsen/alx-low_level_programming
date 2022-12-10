@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * main - main block
- * Description: print all single number of base 10
+ * Descripution: prints all single number of base 10
  * starting from 0, followed by a new line
  * Return: 0
  */
@@ -20,3 +20,4 @@ int main(void)
 		}
 		c++;
 	}
+}
