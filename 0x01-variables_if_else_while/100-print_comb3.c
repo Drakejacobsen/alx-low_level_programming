@@ -5,7 +5,7 @@
  * Description: Write a program that prints all possible
  * different combinations of two digits
  * Numbers must be separated by double comma followed by a space
- * one and ten are considered the same combination of the two digits zero and one
+ * one and ten are considered the same combination of the two digits
  * The two digits must be different
  * Print only the smallest combination of two digits
  * You can only use the putchar function
