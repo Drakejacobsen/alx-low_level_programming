@@ -4,7 +4,8 @@
  * main - main block
  * Description: Write a program that prints all possible
  * different combinations of two digits
- * Numbers must be separated by ,, followed by a space 
+ * Numbers must be separated by double comma followed by a space
+ * 01 and 10 are considered the same combination of the two digits 0 and 1 
  * The two digits must be different
  * Print only the smallest combination of two digits
  * You can only use the putchar function
