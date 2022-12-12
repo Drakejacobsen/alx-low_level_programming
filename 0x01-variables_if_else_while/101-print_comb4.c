@@ -1,36 +1,53 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 /**
- * main - prints all possible different combinations of three digits.
- * Return: Always 0 (Success)
+ * main - main block
+ * Description: Write a program that prints all possible
+ * different combinations of two digits
+ * Numbers must be separated by double commas followed by a space
+ * The two digits must be different
+ * zero and ten are considered the same combnation of the two digits
+ * Print only the smallest combination of two digits 
+ * Numbers should be printed in ascendign order, with two digits
+ * You can only use the putchar function
+ * (Every other function (print, puts, etc...) is forbidden)
+ * you can only use putchar five times maximum in your code 
+ * You are not allowed to use any variable of type char 
+ * All your code should be in the main function
+ * Return: 0
  */
-
 int main(void)
 {
-	int ones = 'o';
-	int tens = '0';
-	int hundreds = 'o';
+	int c;
+	int d;
+	int e = 0;
 
-	for (hundreds = '0'; hundreds <= '9'; hundreds++)
+	while (e < 10)
 	{
-		for (tens = '0'; tens <= '9'; tens++)
+		d = 0;
+		while (d < 10)
 		{
-			for (ones = '0'; ones <= '9'; ones++)
+			c = 0;
+			while (c < 10)
 			{
-		        	 if (!((ones == tens) || (tens == hundreds) 
-							 || (tens > ones) || (hundreds > tens))) 
+				if (c != d && d != e && e < d && d < c)
 				{
-					putchar(hundreds);
-					putchar(tens);
-					putchar(ones);
-			 			if (!(ones == '9' && hundreds == '7' && tens == '8'))
+					putchar('0' + e);
+					putchar('0' + d);
+					putchar('0' + c);
+
+					if (c + d + e != 9 + 8 + 7)
 					{
 						putchar(',');
 						putchar(' ');
 					}
 				}
+
+				c++;
 			}
+			d++;
 		}
+		e++;
 	}
 	putchar('\n');
 	return (0);
