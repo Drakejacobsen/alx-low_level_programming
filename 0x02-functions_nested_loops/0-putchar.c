@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * main - prints putchar and a new line
  * Retuen: Always 0
