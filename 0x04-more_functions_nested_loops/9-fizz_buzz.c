@@ -3,7 +3,7 @@
 
 /**
  * main - print the numbet from 1 to 100
- * 3multiples print fizz instead of the number
+ * 3 multiples print fizz instead of the number
  * 5 print buzz instead of the number
  * 3 & 5 print fizzbuzz
  * Return: Always 0
