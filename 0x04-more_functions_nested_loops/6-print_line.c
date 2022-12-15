@@ -4,7 +4,7 @@
 /**
  * print_line - prints a straight line
  * @n: parameter
- * Return:returns nothing
+ * Return: returns nothing
  */
 
 void print_line(int n)
@@ -13,5 +13,5 @@ void print_line(int n)
 	{
 		putchar('_');
 	}
-	putchar('\n')
+	putchar('\n');
 }
