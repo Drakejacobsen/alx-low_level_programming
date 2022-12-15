@@ -8,10 +8,10 @@
  * The two digits must be different
  * zero and ten are considered the same combinationof the two digits
  * Print only the smallest combination of two digits 
- * Numbers should be printed in ascendign order with two digits
+ * Numbers should be printed in ascending order, with two digits
  * You can only use the putchar function
- * Every other function print puts etc is forbidden
- * You can only use putchar five times maximum in your code 
+ * Every other function print puts and so on is forbidden
+ * You can only use putchar five times max in your code 
  * You are not allowed to use any variable of type char 
  * All your code should be in the main function
  * Return: 0
