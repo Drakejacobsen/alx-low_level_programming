@@ -4,7 +4,7 @@
  * @dest: source string
  * @src: string for filling
  * @n: length of buffer
- * Retuen: new string.
+ * Return: new string.
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
@@ -15,5 +15,5 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 		*(dest + i) = *(src + i);
 		i++;
 	}
-	return(dest);
+	return (dest);
 }
