@@ -5,7 +5,7 @@
  * print_dog - Pronts a struct dog.
  * @d: The struct dog to be printed.
  */
-void print_og(struct dog *d)
+void print_dog(struct dog *d)
 {
 	if (d == NULL)
 		return;
