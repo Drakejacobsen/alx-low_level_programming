@@ -11,7 +11,7 @@ dog_t *new_dog(char *name, float age, char *owner);
  */
 int _strlen(char *str)
 {
-	ine len = 0;
+	int len = 0;
 
 	while (*str++)
 		len++;
@@ -56,7 +56,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	if (doggo == NULL)
 		return (NULL);
 
-	doggo->name = malloc(sizeof(char) * (_strlen(name) + ));
+	doggo->name = malloc(sizeof(char) * (_strlen(name) + 1));
 	if (doggo->name == NULL)
 	{
 		free(doggo);
