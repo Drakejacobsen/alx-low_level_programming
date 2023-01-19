@@ -1,4 +1,6 @@
-#include "variadics_functions.h"
+#include "variadic_functions.h"
+#include <stdio.h>
+#include <stdarg.h>
 /**
  * print_strings - Print numbers using a separator
  * @separator: Ths string separator
