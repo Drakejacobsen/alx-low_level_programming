@@ -5,7 +5,7 @@
  * @n: n args
  * Return: sum or if n == 0, return 0
  */
-int sum them all(const unsigned int n, ...)
+int sum_them_all(const unsigned int n, ...)
 {
 	itn sum = 0;
 	unsigned int i;
