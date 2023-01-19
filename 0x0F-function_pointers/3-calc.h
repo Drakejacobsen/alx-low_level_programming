@@ -1,7 +1,7 @@
 #ifndef _HEADER_
 #define _HEADER_
 /**
- * strcut op - Struct op
+ * struct op - Struct op
  *
  * @op: The operator
  * @f: The function associated
