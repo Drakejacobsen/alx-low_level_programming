@@ -35,9 +35,9 @@ void print_all(const char * const format, ...)
 			break;
 		case 's':
 			switch (start)
-			{ case 1: prontf(", "); }
+			{ case 1: printf(", "); }
 			start = 1;
-			p = va_arh(list, char*);
+			p = va_arg(list, char*);
 			if (p)
 			{ printf("%s", p);
 				break; }
