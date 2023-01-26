@@ -1,4 +1,7 @@
 #include "lists.h"
+#include <stddef.h>
+#include <stdlib.h>
+#include <stdio.h>
 /**
  * add_node_end - Add a new node at teh end of a list.
  * @head: Address of the first node of a list.
