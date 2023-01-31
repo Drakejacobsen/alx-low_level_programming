@@ -6,7 +6,7 @@
  * @index: position of the node to delete.
  * Return: If success (1).
  */
-int delete_nodeint_at_index(listint_t **head, unsinged int index)
+int delete_nodeint_at_index(listint_t **head, unsigned int index)
 {
 	unsigned int i;
 	listint_t *current, *next;
@@ -29,6 +29,6 @@ int delete_nodeint_at_index(listint_t **head, unsinged int index)
 	}
 	next = current->next;
 	current->next = next->next;
-	fre(next);
+	free(next);
 	return (1);
 }
