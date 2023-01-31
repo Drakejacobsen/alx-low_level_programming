@@ -1,4 +1,5 @@
 #include "lists.h"
+#include <stdio.h>
 /**
  * print_listint_safe - pronts a linked list, safely
  * @head: lsit of type listint_t to print
@@ -12,10 +13,10 @@ size_t print_list_safe(const listint_t *head)
 
 	while (head)
 	{
-		diff = head - head->next;
+		dif = head - head->next;
 		num++;
 		printf("[%p] %d\n", (void *)head, head->n);
-		if (diff > 0)
+		if (dif > 0)
 			head = head->next;
 		else
 		{
